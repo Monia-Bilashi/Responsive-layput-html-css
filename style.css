@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+.header{
+    background-color: rgb(14, 93, 110);
+    width: 100%;
+}
+.menu_bar{
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+    /* border: 1px solid black; */
+}
+.logo h1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.menu_item{
+    width: 80%;
+    /* border: 1px solid red; */
+}
+.toggel_menu div{
+    width: 25px;
+    height: 3px;
+    background: black;
+    margin-bottom: 10px;
+}
+.togg{
+    display: none;
+}
+.menu_list ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    /* justify-content: flex-end; */
+    float: right;
+}
+.menu_list ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 20px;
+    transition: .4s;
+    /* background-color: #fff; */
+}
+.menu_list ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}

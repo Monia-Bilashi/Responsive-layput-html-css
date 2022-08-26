@@ -1,0 +1,115 @@
+@media (min-width:1400px){}
+@media (min-width:1200px) and (max-width:1399px) {}
+@media (min-width:992px) and (max-width:1199px) {
+    .logo h1{
+        font-size: 30px;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .logo{
+        width: 40%;
+    }
+    .logo h1{
+        font-size: 30px;
+    }
+    .menu_list{
+        display: none;
+        transition: .7s !important;
+    }
+    .menu_list ul{
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+        background-color: rgb(14, 93, 110);
+    }
+    .menu_list ul li a{
+        padding: 0px 20px;
+    }
+    .togg{
+        display: block;
+        float: right;
+        padding-top: 10px;
+        position: relative;
+        transition: .7s;
+    }
+    .menu_list{
+        position: absolute;
+        top: 8%;
+        right: 5%;
+    }
+    .togg:hover ~ .menu_list{
+        display: block;
+    }
+}
+@media (min-width:576px) and (max-width:767px) {
+    .logo{
+        width: 40%;
+    }
+    .logo h1{
+        font-size: 30px;
+    }
+    .menu_list{
+        display: none;
+        transition: .7s !important;
+    }
+    .menu_list ul{
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+        background-color: rgb(14, 93, 110);
+    }
+    .menu_list ul li a{
+        padding: 0px 20px;
+    }
+    .togg{
+        display: block;
+        float: right;
+        padding-top: 10px;
+        position: relative;
+        transition: .7s;
+    }
+    .menu_list{
+        position: absolute;
+        top: 8%;
+        right: 5%;
+    }
+    .togg:hover ~ .menu_list{
+        display: block;
+    }
+}
+@media (max-width:320px) {
+    .logo{
+        width: 40%;
+    }
+    .logo h1{
+        font-size: 30px;
+    }
+    .menu_list{
+        display: none;
+        transition: .7s !important;
+    }
+    .menu_list ul{
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+        background-color: rgb(14, 93, 110);
+    }
+    .menu_list ul li a{
+        padding: 0px 20px;
+    }
+    .togg{
+        display: block;
+        float: right;
+        padding-top: 10px;
+        position: relative;
+        transition: .7s;
+    }
+    .menu_list{
+        position: absolute;
+        top: 8%;
+        right: 5%;
+    }
+    .togg:hover ~ .menu_list{
+        display: block;
+    }
+}
